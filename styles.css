@@ -35,10 +35,16 @@ li {
     font-size: 21pt;
 }
 
+a  {
+    color:black; 
+    text-decoration: none;
+}
+
 li::before {
     content: "-";
     padding-right: 10pt;
 }
+
 
 
 #maincolumn {
@@ -76,7 +82,7 @@ li::before {
 .row-cell.coming {
     display: flex;
     justify-content: space-around;
-    margin: 120px 100px;
+    margin: 170px 100px 100px 100px;
 }
 
 #coming-soon {
