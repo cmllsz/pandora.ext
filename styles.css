@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: "Krungthep";
-    src: url("Krungthep.woff");
+    src: url("/Krungthep.woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -67,7 +67,7 @@ li::before {
     height: 187px;
     margin-right: 80px;
     min-width: 187px;
-    background-image: url("logo.svg");
+    background-image: url("/logo.svg");
     background-size: contain;
     box-shadow: -15px 12px black;
 }
@@ -102,7 +102,7 @@ li::before {
 .carousel {
     border: 2pt solid black;
     box-shadow: -15px 12px black;
-    width: 100%;
+    max-width: 100%;
     min-height: 300px;
     margin-bottom: 80px !important;
     position: relative;
@@ -112,7 +112,15 @@ li::before {
 /* Make the images invisible by default */
 .Containers {
     display: none;
+    
 }
+
+
+.Containers img {
+    width: 100%;
+    
+}
+
 
 /* forward & Back buttons */
 .Back,
